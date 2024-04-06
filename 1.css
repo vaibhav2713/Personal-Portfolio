@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(108, 205, 243);
+    background: linear-gradient(to left , tomato, rgb(197, 54, 138)); 
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+nav ul li a:hover {
+    color: rgb(165, 235, 235);
+    font-size: 1.04rem;
+    text-decoration:underline;
+}
+a {
+    color: #fff;
+    text-decoration: underline;
+}
+.rightsection img {
+    width: 20%;
+    height: 20%;
+    margin-left: 1000px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+section {
+    padding: 2rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+#home{
+    margin-bottom: -30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#home h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px white;
+} 
+#about h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px white;
+}
+
+.pdf {
+    text-align: center;
+    margin: 20px;
+}
+
+.pdf button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.pdf button:hover {
+    background-color: #2980b9;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(218, 207, 207, 10);
+}
